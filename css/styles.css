@@ -34,6 +34,13 @@ max-width: 1158px;
 padding: 0 15px;
 margin: 0 auto;
 }
+.team-foto{
+display: block;
+}
+.portfolio-foto{
+display: block;
+}
+
 .page-header{
  border-bottom: 1px solid #e7e9fc;
 }
@@ -106,7 +113,7 @@ color: #404bbf;
 }
 .firct-section{
 background-color: #2e2f42;
-padding: 188px;
+padding: 188px 0 
 }
 
 .first-tittle{
@@ -116,12 +123,13 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff; 
-width: 496px;
+max-width: 496px; 
 margin:0 auto;
 padding-bottom: 289px;
 padding-top: 188px;
 }
 .first-button{
+ border: none; 
 display: block;
 margin: 48px auto;
 font-family: "Roboto", sans-serif;
@@ -170,13 +178,13 @@ color: #434455;
 }
 .section-team{
 background-color:#f4f4fd;
-padding-top: 120px;
+padding: 120px 0;
 }
 .team-list{
 display: flex;
 align-items: center;
 justify-content: center;
-gap: 32px;
+gap: 24px;
 padding-top: 232px;
 padding-bottom: 120px;
 }
@@ -196,6 +204,7 @@ text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
 padding-top: 120px;
+margin-bottom: 72px; 
 }
 .mini {
 display: flex;
@@ -205,6 +214,7 @@ flex-direction: column;
 gap: 8px;
 width: 360px;
 height: 120px;
+padding: 32px 0
 }
 .team-foto{
 margin-bottom: 32px;
@@ -216,6 +226,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 8px
 }
 .foto-text{
 font-weight: 400;
@@ -227,8 +238,10 @@ color: #434455;
 padding-left: 16px;
 padding-right: 16px;
 margin: 0 auto;
-
 } 
+.portfolio{
+padding: 120px 0 120px 0
+}
 .portfolio-tittle{
 font-weight: 700;
 font-size: 36px;
@@ -265,6 +278,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 .portfolio-text{
 font-weight: 400;
@@ -275,24 +289,17 @@ color: #434455;
 }
 .page-footer{
 background-color:#2e2f42;
+padding: 100px 0;
 }
 .footer-text{
-font-weight: 400;
+max-width: 264px; 
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd; 
 margin-top: 16px;
 }
-.last{
-width: 264px;
-height: 112px;
-}
-.page-footer{
-padding:100px 1020px 100px 156px ;
-}
-.stop{
-margin-bottom: 16px;
-width: 115px;
-height: 24px;
+a.logo-part{
+display: inline-block;
+margin-bottom: 16px; 
 }
