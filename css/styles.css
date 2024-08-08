@@ -129,7 +129,7 @@ padding-bottom: 289px;
 padding-top: 188px;
 }
 .first-button{
- border: none; 
+border: none; 
 display: block;
 margin: 48px auto;
 font-family: "Roboto", sans-serif;
@@ -140,8 +140,8 @@ letter-spacing: 0.04em;
 color: #fff;
 background-color:#4d5ae5; 
 border-radius: 4px;
-width: 169px;
 height: 56px;
+min-width: 169px
 }
 .first-button:hover,
 .first-button:focus{
@@ -299,7 +299,10 @@ letter-spacing: 0.02em;
 color: #f4f4fd; 
 margin-top: 16px;
 }
-a.logo-part{
+.footer-logo{
 display: inline-block;
-margin-bottom: 16px; 
+margin-bottom: 16px;
+}
+.stop{
+margin-right: 156px;
 }
