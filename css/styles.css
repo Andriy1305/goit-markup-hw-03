@@ -212,7 +212,6 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 gap: 8px;
-width: 360px;
 height: 120px;
 padding: 32px 0
 }
@@ -300,6 +299,9 @@ color: #f4f4fd;
 margin-top: 16px;
 }
 .footer-logo{
-inline-block; 
+display: inline-block; 
 margin-bottom: 16px; 
+}
+.footer-text{
+max-width: 264px;
 }
