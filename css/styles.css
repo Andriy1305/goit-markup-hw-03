@@ -131,7 +131,7 @@ padding-top: 188px;
 .first-button{
 border: none; 
 display: block;
-margin: 48px auto;
+margin: 0 auto;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -185,15 +185,12 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 24px;
-padding-top: 232px;
-padding-bottom: 120px;
 }
 .team-item{
 background-color:#fff;
 border-radius: 0 0 4px 4px;
 padding: 0px 0px 32px 0px;
-width: 264px;
-height: 380px;
+width: calc((100% - 72px) / 4 );
 }
 .team-tittle{
 font-weight: 700;
@@ -203,21 +200,16 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
-padding-top: 120px;
 margin-bottom: 72px; 
 }
 .mini {
-display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
 gap: 8px;
-height: 120px;
 padding: 32px 0
 }
-.team-foto{
-margin-bottom: 32px;
-}
+
 .foto-tittle{
 font-weight: 500;
 font-size: 20px;
@@ -296,12 +288,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd; 
-margin-top: 16px;
 }
 .footer-logo{
 display: inline-block; 
 margin-bottom: 16px; 
-}
-.footer-text{
-max-width: 264px;
 }
